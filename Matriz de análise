@@ -1,123 +1,113 @@
-# Prompt — Geração da Matriz de Categorias de Análise (riscos reputacionais em universidades públicas)
-
-Prompt reutilizável para gerar a matriz de categorias do Protocolo de Análise Documental (UFV x UFOB). Os eixos e objetivos são fixos; o modelo gera categorias, perguntas orientadoras, escalas e o fundamento normativo de cada categoria.
-
----
-
-```
 # PAPEL
 Você é um pesquisador especialista em governança pública, gestão de riscos e comunicação institucional, com experiência em análise documental qualitativa (análise de conteúdo categorial) aplicada a instituições federais de ensino superior (IFES).
 
 # CONTEXTO DA PESQUISA
 Trabalho acadêmico sobre gestão de riscos reputacionais em universidades públicas. Objetivo geral: identificar as principais estruturas e processos que contribuem para a gestão de riscos reputacionais nessas instituições, comparando a Universidade Federal de Viçosa (UFV) e a Universidade Federal do Oeste da Bahia (UFOB), que já têm certa maturidade em gestão de riscos.
-A matriz que você vai criar será aplicada documento a documento (uma linha por documento, colunas = categorias), consolidada em um perfil institucional por eixo e, por fim, usada em um quadro comparativo UFV x UFOB que destaque convergências, divergências e lacunas. A ausência de informação também é um dado relevante.
+A matriz que você vai criar será aplicada aos documentos de cada instituição (políticas, planos, mapas de riscos, relatórios e notícias) e usada para comparar UFV e UFOB, destacando convergências, divergências e lacunas. A ausência de informação também é um dado relevante.
 
 # TAREFA
-Construa uma MATRIZ DE CATEGORIAS DE ANÁLISE organizada nos 7 eixos pré-definidos abaixo. Os eixos e seus objetivos são FIXOS: não renomeie, não funda, não crie eixos novos. Dentro de cada eixo, você deve criar as categorias, as perguntas orientadoras e as escalas de codificação, e indicar o fundamento normativo de cada categoria (exceto no Eixo F).
+Construa uma MATRIZ DE CATEGORIAS DE ANÁLISE organizada nos 5 eixos pré-definidos abaixo. Os eixos e seus objetivos são FIXOS: não renomeie, não funda, não crie eixos novos.
+- Nos Eixos A, B e C, crie as categorias, as perguntas orientadoras e as escalas de codificação.
+- Nos Eixos D e E, crie apenas as perguntas orientadoras (sem categorias e sem escalas).
 
-# ═══════════════════════════════════════════════
-# DOCUMENTOS NORMATIVOS DE BASE (obrigatórios)
-# ═══════════════════════════════════════════════
-Toda categoria dos Eixos A, B, C, D, E e G deve estar ancorada em pelo menos um dos documentos abaixo. Cite-o na coluna "Fundamento normativo". O Eixo F não tem essa coluna. Não invente normas, artigos ou datas: se não tiver certeza de um artigo específico, cite apenas a norma.
+# DOCUMENTOS NORMATIVOS DE BASE (OBRIGATÓRIOS)
+As categorias, as perguntas e as escalas devem ser construídas com base nos documentos abaixo. Não invente normas, artigos ou datas: se não tiver certeza de um artigo específico, considere apenas a norma.
 
-## Bloco 1 — Marcos legais federais (citados no protocolo)
-1. ★ Instrução Normativa Conjunta MP/CGU nº 01/2016 — controles internos, gestão de riscos e governança no Poder Executivo federal (exige política de gestão de riscos e comitê de governança, riscos e controles).
-2. ★ Decreto nº 9.203/2017 — política de governança da administração pública federal (sistema de gestão de riscos e controles internos; programa de integridade; comitê interno de governança, incluído pelo Decreto nº 9.901/2019).
+## Bloco 1 - Marcos legais federais (citados no protocolo)
+1. ★ Instrução Normativa Conjunta MP/CGU nº 01/2016 - controles internos, gestão de riscos e governança no Poder Executivo federal (exige política de gestão de riscos e comitê de governança, riscos e controles).
+2. ★ Decreto nº 9.203/2017 - política de governança da administração pública federal (sistema de gestão de riscos e controles internos; programa de integridade; comitê interno de governança, incluído pelo Decreto nº 9.901/2019).
 
-## Bloco 2 — Referenciais metodológicos (citados no protocolo)
-3. ★ ABNT NBR ISO 31000:2018 — Gestão de riscos: diretrizes (princípios, estrutura e processo: identificação, análise, avaliação, tratamento, monitoramento, comunicação).
-4. ★ COSO ERM (2017) — Enterprise Risk Management: Integrating with Strategy and Performance (e COSO Controle Interno 2013, adotado pela IN 01/2016).
-5. ★ TCU — Referencial Básico de Gestão de Riscos (2018) e Referencial Básico de Governança Organizacional (3. ed., 2020).
+## Bloco 2 - Referenciais metodológicos (citados no protocolo)
+3. ★ ABNT NBR ISO 31000:2018 - Gestão de riscos: diretrizes (princípios, estrutura e processo: identificação, análise, avaliação, tratamento, monitoramento, comunicação).
+4. ★ COSO ERM (2017) - Enterprise Risk Management: Integrating with Strategy and Performance (e COSO Controle Interno 2013, adotado pela IN 01/2016).
+5. ★ TCU - Referencial Básico de Gestão de Riscos (2018) e Referencial Básico de Governança Organizacional (3. ed., 2020).
 
-## Bloco 3 — Normas complementares (usar quando a categoria exigir)
-6. Lei nº 13.460/2017 — participação e defesa dos usuários de serviços públicos (ouvidoria).
+## Bloco 3 - Normas complementares (usar quando a categoria exigir)
+6. Lei nº 13.460/2017 - participação e defesa dos usuários de serviços públicos (ouvidoria).
 
 Referencial conceitual (NÃO normativo, usar só para definir "reputação" e "crise"): THE REPTRAK COMPANY (2025); LOBUE (2018); KOTLER; KELLER (2012); DUARTE (2020).
 
-# EIXOS E OBJETIVOS (pré-definidos — não alterar)
+# EIXOS E OBJETIVOS (PRÉ-DEFINIDOS - NÃO ALTERAR)
 
-EIXO A — Institucionalização da gestão de riscos
-Objetivo: verificar se a gestão de riscos está formalmente instituída, por qual instância, com que abrangência e com qual base normativa.
+EIXO A - Institucionalização da Gestão de Risco
+Objetivo: verificar se a gestão de riscos está formalmente instituída, qual órgão é responsável por ela, qual é a abrangência declarada e em que base normativa se apoia.
 Fontes típicas: Política de Gestão de Riscos e Controles (PGRC), Política de Governança, regimento do Comitê de Governança.
+Quantidade: 4 categorias (A1 a A4).
 
-EIXO B — Metodologia de gestão de riscos
-Objetivo: identificar o referencial teórico-metodológico adotado e como os riscos são identificados, classificados e categorizados.
+EIXO B - Metodologia de gestão de riscos
+Objetivo: identificar o referencial teórico-metodológico adotado, o processo de identificação de riscos, os critérios de classificação e as categorias de risco previstas.
 Fontes típicas: PGRC, Plano de Gestão de Riscos, metodologia/manual interno.
+Quantidade: 4 categorias (B1 a B4).
 
-EIXO C — Risco reputacional especificamente
-Objetivo: verificar se o risco reputacional/de imagem é nomeado, definido, mapeado em eventos concretos e acompanhado de instrumentos de resposta.
-Fontes típicas: mapa/matriz de riscos, PGRC, Política de Comunicação, Plano de Integridade.
+EIXO C - Risco reputacional e de integridade
+Objetivo: verificar se o risco reputacional e de integridade é mencionado explicitamente, como é definido, se há eventos concretos mapeados e se existem instrumentos de resposta, como protocolos de comunicação de crise.
+Fontes típicas: mapa/matriz de riscos, PGRC, Plano de Integridade, Política de Comunicação, normativos da ouvidoria.
+Quantidade: 4 categorias (C1 a C4).
 
-EIXO D — Articulação com o planejamento estratégico
-Objetivo: avaliar a integração entre a gestão de riscos e o PDI, os indicadores de monitoramento e a periodicidade de revisão.
-Fontes típicas: PDI vigente, relatórios de gestão, planos de riscos sucessivos.
+EIXO D - Plano de Gestão de Risco
+Objetivo: verificar, nos mapas e planos de gestão de riscos, se os riscos associados à reputação são tratados de forma completa: classificação do risco como reputacional; especificidade das causas; consequências que mencionem imagem, credibilidade, confiança e partes interessadas; atribuição de probabilidade, impacto e nível com critério definido; ações preventivas e evidência de sua operacionalização; ações de comunicação com o público ou de gestão de crise; ação prevista para o caso de o risco se materializar; responsável, prazo ou unidade designada; e indicador, revisão periódica ou relatório de acompanhamento.
+Fontes típicas: mapa/matriz de riscos, Plano de Gestão de Riscos, relatórios de monitoramento.
+Quantidade: 12 perguntas.
+Resposta: todas as perguntas são respondidas apenas com "Sim" ou "Não".
 
-EIXO E — Maturidade e efetividade aparente
-Objetivo: estimar o estágio real de implementação, a avaliação pela auditoria interna e a transparência pública das informações.
-Fontes típicas: relatórios de auditoria interna, relatórios de monitoramento, portal institucional.
-
-EIXO F — Plano de gestão de riscos (análise dos mapas de riscos)
-Objetivo: avaliar, risco a risco, a qualidade do tratamento dos riscos com dimensão reputacional nos mapas de riscos (natureza, causas, consequências, avaliação, controles, contingência, responsáveis, monitoramento e integração com integridade/ética/ouvidoria/corregedoria).
-Escala única obrigatória: 0 = o elemento não aparece; 1 = o elemento é mencionado; 2 = há regra formalizada; 3 = há evidência de operacionalização.
-Este eixo NÃO tem a coluna "Fundamento normativo".
-
-EIXO G — Repercussão de crises
-Objetivo: analisar crises institucionais noticiadas nos últimos 5 anos (imprensa externa, portal de transparência) e confrontá-las com o que estava previsto nos documentos, verificando coerência entre o desenho formal e a prática.
-Não divida o eixo em blocos. Todas as perguntas deste eixo devem ser respondidas apenas com "sim" ou "não".
+EIXO E - Contexto de risco crítico e crise
+Objetivo: analisar, em cada instituição, um episódio de risco crítico que se transformou em crise noticiada, caracterizando o alcance da notícia, os desdobramentos, a origem (interna ou externa), a atribuição de culpa, os valores institucionais colocados em questão, as partes interessadas mais afetadas, as consequências percebidas, a estratégia de resposta e a transparência dos processos; e confrontar o episódio com o que estava previsto (se o risco constava no mapa de riscos, se o impacto previsto era compatível com a gravidade real, se os controles foram efetivos, se havia sinais anteriores de tratamento e se a crise levou à revisão do mapa ou dos controles).
+Fontes típicas: notícias de imprensa, notas oficiais da instituição, portal de transparência, mapa de riscos.
+Quantidade: 14 perguntas.
+Resposta: as perguntas são respondidas com uma resposta descritiva curta (ex.: "Regional", "Interna", "Emissão de nota") ou com "Sim"/"Não", conforme a pergunta.
 
 # REGRAS DE CONSTRUÇÃO
-1. Crie de 3 a 9 categorias por eixo, numeradas (A1, A2… G1, G2…). Cada categoria deve ser mutuamente exclusiva em relação às demais do mesmo eixo e diretamente ligada ao objetivo do eixo.
-2. Cada categoria tem UM tipo de escala, declarado explicitamente:
-   - Ordinal (0–2 ou 0–3), com âncora descritiva para cada nível, do maior para o menor (ex.: "3 = … · 2 = … · 1 = … · 0 = …"). O nível 0 é sempre ausência.
+1. Nos Eixos A, B e C, numere as categorias (A1, A2... C4). Cada categoria deve ser mutuamente exclusiva em relação às demais do mesmo eixo e diretamente ligada ao objetivo do eixo.
+2. Nos Eixos A, B e C, cada categoria tem UM tipo de escala, declarado explicitamente:
+   - Ordinal (0-2 ou 0-3), com âncora descritiva para cada nível, do maior para o menor (ex.: "3 = ... / 2 = ... / 1 = ... / 0 = ..."). O nível 0 é sempre ausência.
    - Nominal, com lista fechada de opções, incluindo "híbrido" e "não explicitado/não descrito" quando couber.
    - Binária (sim/não) por item, quando a categoria for uma checklist (ex.: tipos de risco previstos), com resultado quantitativo (contagem de "sim").
-3. Quando útil, acrescente um "campo complementar" de registro (ex.: ano de instituição, frequência de revisão, origem do evento).
-4. Não preencha as colunas UFV e UFOB: deixe-as vazias.
+3. Quando útil, acrescente um campo complementar de registro (ex.: ano de instituição da política), a ser anotado junto com a nota.
+4. Nos Eixos D e E, escreva cada pergunta de forma que possa ser respondida pela leitura dos documentos e das notícias, sem entrevistas.
+5. Não preencha as colunas UFV e UFOB: deixe-as vazias.
 
 # FORMATO DE SAÍDA
 Entregue apenas os quadros, sob o título geral:
+Matriz de categorias de análise documental: UFOB x UFV
 
-## Matriz de categorias de análise documental: UFOB x UFV
+Um quadro por eixo. Acima de cada quadro, o título no formato "Quadro [n]: Eixo [X] - [nome do eixo]", com os quadros numerados em sequência. Abaixo de cada quadro, a linha "Fonte: Elaboração própria (2026)."
 
-Um quadro por eixo, identificado apenas pelo nome do eixo ("Eixo X — [nome]"). Nos Eixos A, B, C, D, E e G, o quadro tem somente estas colunas:
-
-| Categoria | Pergunta orientadora | Fundamento normativo | UFV | UFOB |
-|---|---|---|---|---|
-
-No Eixo F, o quadro tem somente estas colunas (sem "Fundamento normativo"):
-
-| Categoria | Pergunta orientadora | UFV | UFOB |
+Eixos A, B e C - colunas:
+| CATEGORIA | PERGUNTA ORIENTADORA | UFV | UFOB |
 |---|---|---|---|
+A escala de codificação NÃO é coluna. Ela fica ABAIXO da linha de cada categoria, em uma linha de texto que ocupa toda a largura do quadro. Para isso, cada categoria é um quadro de uma linha (com o cabeçalho das colunas), seguido imediatamente da linha de escala, e só então vem a categoria seguinte.
 
-O tipo de escala e a escala de codificação NÃO são colunas. Eles ficam ABAIXO da linha de cada categoria, em uma linha de texto que ocupa toda a largura do quadro, no formato:
+Eixo D - colunas (uma linha por pergunta, sem linha de escala):
+| PERGUNTA ORIENTADORA | UFOB | UFV |
+|---|---|---|
 
-*Escala ([tipo]):* [níveis ou opções]
-
-Para isso, cada categoria é um quadro de uma linha (com o cabeçalho das colunas), seguido imediatamente da linha de escala, e só então vem a categoria seguinte. Siga exatamente o exemplo abaixo.
+Eixo E - colunas (uma linha por pergunta, sem linha de escala):
+| PERGUNTAS ORIENTADORAS | UFOB | UFV |
+|---|---|---|
 
 Não inclua introdução, comentários, quadro-síntese nem notas de aplicação.
 
-# EXEMPLO DE FORMATO (apenas modelo, não copie o conteúdo)
+# EXEMPLO DE CONTEÚDO (apenas modelo, não copie)
+No exemplo do Eixo A, os campos da categoria estão listados um por um só para facilitar a leitura. Na resposta, monte a categoria como uma linha do quadro descrito em FORMATO DE SAÍDA, com a linha de escala logo abaixo.
 
-### Eixo A — Institucionalização da gestão de riscos
+Quadro 1: Eixo A - Institucionalização da Gestão de Risco
+CATEGORIA: A1. Existência formal
+PERGUNTA ORIENTADORA: Há política de gestão de riscos formalmente instituída? Desde quando?
+UFV: (vazio)
+UFOB: (vazio)
+Linha de escala: 2 = instituída por resolução do Conselho Superior / 1 = em elaboração (minuta, consulta) / 0 = inexistente
+Fonte: Elaboração própria (2026).
 
-| Categoria | Pergunta orientadora | Fundamento normativo | UFV | UFOB |
-|---|---|---|---|---|
-| A1. Existência formal | Há política de gestão de riscos formalmente instituída? Desde quando? | IN Conjunta MP/CGU nº 01/2016; Decreto nº 9.203/2017 | | |
+Quadro 4: Eixo D - Plano de Gestão de Risco
+| PERGUNTA ORIENTADORA | UFOB | UFV |
+|---|---|---|
+| O risco é classificado ou associado à reputação? | | |
+Fonte: Elaboração própria (2026).
 
-*Escala (ordinal 0–2 + campo complementar: ano):* 2 = instituída por resolução do Conselho Superior · 1 = em elaboração (minuta, consulta) · 0 = inexistente
-
-| Categoria | Pergunta orientadora | Fundamento normativo | UFV | UFOB |
-|---|---|---|---|---|
-| A4. Base normativa | A política cita a IN 01/2016 e o Decreto 9.203/2017? Cita normas posteriores ou internas? | IN 01/2016; Decreto 9.203/2017 | | |
-
-*Escala (ordinal 0–3):* 3 = cita IN 01/2016 + Decreto 9.203/2017 + normas posteriores · 2 = cita só uma das normas-marco · 1 = só normas internas · 0 = sem fundamentação
+Quadro 5: Eixo E - Contexto de risco crítico e crise
+| PERGUNTAS ORIENTADORAS | UFOB | UFV |
+|---|---|---|
+| Qual foi o alcance da notícia? | | |
+Fonte: Elaboração própria (2026).
 
 Escreva em português do Brasil, com linguagem técnica e acadêmica.
-```
-
----
-
-## Observações
-
-- Os documentos marcados com ★ são os citados no Protocolo de Análise Documental original. A Lei nº 13.460/2017 (Bloco 3) foi acrescentada como sugestão e deve ser conferida antes do uso.
